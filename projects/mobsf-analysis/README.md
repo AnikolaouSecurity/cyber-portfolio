@@ -4,13 +4,12 @@
 Static security analysis of 12 Android education applications from the Google Play Store using **MobSF (Mobile Security Framework)** and **AndroToMistLite**. The analysis examined permissions, trackers, insecure coding practices, and OWASP Top 10 vulnerabilities.
 
 ## Tools Used
-- **MobSF** (via Docker) — static analysis, permission auditing, code analysis
-- **AndroToMistLite** — additional Android analysis
-- **adb** — APK extraction from physical device (Nothing Phone 1)
-- **Python / Matplotlib** — data visualization
+- **MobSF** (via Docker) : static analysis, permission auditing, code analysis
+- **AndroToMistLite** : additional Android analysis
+- **adb** : APK extraction from physical device (from Nothing Phone model 1)
 
 ## Methodology
-1. Selected 12 education apps with 1M+ downloads (Duolingo, Khan Academy, Udemy, Busuu, Brilliant, etc.)
+1. Selected 12 education apps with up to 1M+ downloads (Duolingo, Khan Academy, Udemy, Busuu, Brilliant, etc.)
 2. Extracted APKs from a physical Android device using `adb`
 3. Ran each APK through MobSF for static analysis
 4. Analyzed: permissions (dangerous vs. normal), trackers, code vulnerabilities, OWASP Top 10 mapping
