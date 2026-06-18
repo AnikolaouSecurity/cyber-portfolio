@@ -3,7 +3,6 @@
 Cybersecurity learning portfolio focused on L1 SOC analyst work
 
 ## Structure
--`notes/` : selected learning notes and write ups
 -`projects/` : labs, honeypot reports, detection rules and tooling
 
 ## Currently working on
