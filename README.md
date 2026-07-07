@@ -1,14 +1,14 @@
 # Cyber Portfolio
 
-Cybersecurity learning portfolio focused on L1 SOC analyst work
+Cybersecurity learning portfolio focused on web application penetration testing and bug bounty hunting.
 
 ## Structure
--`projects/` : labs, honeypot reports, detection rules and tooling
+- `projects/` – labs, MobSF analysis report, thesis, and tooling
 
 ## Currently working on
-- TryHackMe SOC L1 path
-- Home lab: Security Onion / SIEM queries
-- Honeypote deployment (Cowrie/Doinaea)
+- PortSwigger Web Security Academy (Access Control, SQLi, XSS, SSRF)
+- Bug bounty hunting (VDPs and Intigriti programs)
+- Recon methodology and Burp Suite proficiency
 
 ## Background
 - BSc Mathematics (University of Crete)
